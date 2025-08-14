@@ -28,7 +28,9 @@ function showList(){
 }
 
 function removeList(){
+    // console.log(this)
     let id = this.getAttribute("id");
+    // remove배열에서 내가 클릭한 요소가 this
     itemList.splice(id,1);
     showList();
 }
