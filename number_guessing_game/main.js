@@ -17,7 +17,6 @@ submitBtn.addEventListener("click", play);
 resetBtn.addEventListener("click", reset);
 
 function play(){
-    // let inputVal = document.getElementById("input-value");
     let inputValNum = Number(inputVal.value);
 
     if(inputValNum < 1 || inputValNum > 100){
@@ -25,18 +24,24 @@ function play(){
         return;
     }
 
-    if(inputValNum>answerVal){
-        resultShow.innerHTML = "DOWN!";
-        chance -= 1;
-        chanceShow.innerHTML = `남은 기회 : ${chance}`;
-        inputVal.select();
-    } else if(inputValNum<answerVal){
-        resultShow.innerHTML = "UP!";
-        chance -= 1;
-        chanceShow.innerHTML = `남은 기회 : ${chance}`
-        inputVal.select();
-    } else if(inputValNum == answerVal){
-        resultShow.innerHTML = "정답입니다!";
+    if(items.includes(inputValNum)){
+        resultShow.innerHTML = "이미 입력한 값입니다.";
+    } else{
+        if(inputValNum>answerVal){
+            items.push(inputValNum);
+            resultShow.innerHTML = "DOWN!";
+            chance -= 1;
+            chanceShow.innerHTML = `남은 기회 : ${chance}`;
+            inputVal.select();
+        } else if(inputValNum<answerVal){
+            items.push(inputValNum);
+            resultShow.innerHTML = "UP!";
+            chance -= 1;
+            chanceShow.innerHTML = `남은 기회 : ${chance}`
+            inputVal.select();
+        } else if(inputValNum == answerVal){
+            resultShow.innerHTML = "정답입니다!";
+        }
     }
 
     if(chance==0){
@@ -47,16 +52,8 @@ function play(){
 function reset(){
     chance = 5;
     inputVal.value = "";
+    items = [];
     chanceShow.innerHTML = "게임을 시작합니다!";
     resultShow.innerHTML = "결과가 표시됩니다!";
 }
 
-function addNum(a){
-    if(items.includes(a)){
-        resultShow.innerHTML = "이미 입력한 값입니다.";
-    } else{
-        items.push(a);
-    }
-}
-
-hello
