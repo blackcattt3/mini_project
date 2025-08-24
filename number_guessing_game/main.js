@@ -46,6 +46,9 @@ function play(){
 
     if(chance==0){
         resultShow.innerHTML = `Game Over.. 정답은 ${answerVal}였습니다!`
+        inputVal.disabled = true;
+        submitBtn.disabled = true;
+        
     }
 }
 
