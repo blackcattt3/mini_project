@@ -38,6 +38,7 @@ function newRegister(){
         colorText[i].addEventListener("click", function(){
             this.style.color = "#ccc";
         })
+        
     }
 
 }
