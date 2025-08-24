@@ -1,3 +1,12 @@
+// let addBtn = document.querySelector("#addBtn");
+// addBtn.addEventListener("click", newRegister);
+
+let form = document.querySelector("form");
+form.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    newRegister();
+})
+
 function newRegister(){
     let newList = document.createElement("li");
     newList.setAttribute("class", "items");
