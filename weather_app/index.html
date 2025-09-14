@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/6ed825c0b2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <section class="container">
+        <section class="nav">
+            <div>
+                <img class="logo-img"src="./img/weather_logo.jpg">
+            </div>
+        </section>
+
+        <section class="main">
+            <section>
+                <div>
+                    <img class="weather-img" src="./img/smile_cat.jpeg">
+                </div>
+                <div class="date-show">날짜 정보</div>
+                <div class="time-show">시간 정보</div>
+                <div class="temperature-show">기온</div>
+            </section>
+            <section>
+                <div class="weather-per-time">
+                    <div class="weather-time-item">
+                        <div>시간</div>
+                        <div>날씨사진</div>
+                        <div>기온</div>
+                    </div>
+                </div>
+                <div class="weather-per-week">주일별 날씨
+                    <div class="weather-week-item">
+                        <div>오늘</div>
+                        <div>날씨사진</div>
+                        <div>기온</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 </html>

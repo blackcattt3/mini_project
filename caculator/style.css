@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    margin:0px;
+    padding:0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 250px;
+    height: 320px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border-radius: 5%;
+}
+.screen{
+    width: 220px;
+    height: 60px;
+    border: 1px solid red;
+    border-radius: 3%;
+}
+.number-pad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.pad-row{
+    margin: 1px;
+}
+.pad-row button{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
