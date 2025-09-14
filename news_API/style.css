@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.search-tab{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.search-icon{
+    margin-right: 5px;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 1em;
+}
+.title svg{
+    width: 430px;
+}
+.menus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 3px double black;
+}
+.menus button{
+    border: none;
+    background: none;
+    margin: 10px;
+}
+.menus button:hover{
+    background-color: beige;
+}
+.x-btn{
+    display: none;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.news{
+    padding: 1em;
+    border-bottom: 2px solid #e2e2e2;
+}
+.news-img-size{
+    max-width: 100%;
+    max-height: 250px;
+}
+.search-toggle{
+    display: none;
+}
+.search-toggle.active{
+    display: flex;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 576px){
+    .hamburger{
+        display: flex;
+        padding: 4px;
+        margin-top: 2px;
+    }
+    .hamburger:hover{
+        cursor: pointer;
+    }
+    .menus{
+        margin-top: 0;
+        position: fixed;       /* 화면에 고정 */
+        top: 0;
+        left: -250px;          /* 처음엔 안 보이게 */
+        width: 250px;
+        height: 80vh;         /* 세로 전체 */
+        background: white;
+        border: 1px solid #ddd;
+        transition: left 0.3s ease;  /* 슬라이드 애니메이션 */
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        z-index: 999;       /* 겹침 정도 */
+    }
+    .menus.active {
+        left: 0; /* 왼쪽에서 쑥 나옴 */
+    }
+    .x-btn{
+        display: flex;
+        position:absolute;
+        top:0px;
+        right:10px;
+    }
+    .x-btn:hover{
+        cursor: pointer;
+    }
+}
