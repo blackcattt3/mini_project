@@ -2,8 +2,10 @@ let numberBtn = document.querySelectorAll(".number-btn");
 let symbolBtn = document.querySelectorAll(".symbol-btn");
 let resultBtn = document.querySelector(".result-btn");
 let cBtn = document.querySelector(".c-btn");
+let screenContent = document.querySelector(".screen-content");
 let number = '';
 let symbol = ''
+let lastSymbol = '';
 let firstNum = 0;
 let secondNum = 0;
 let resultNum = 0;
@@ -20,11 +22,12 @@ const makeNumber = (num)=>{
 // 누른 순서대로 숫자만들고, 기호포함 리스트에 다 담기
 const pushNumberToList = (num) =>{
     NumList.push(num);
-    console.log(NumList);
+    // console.log(NumList);
     // console.log(NumList[NumList.length-1]);      // 마지막 원소
     if(num == '+' || num == '-' || num == 'X' || num == '/'){
         number = ''
     }
+    screenContent.innerHTML = num;
 }
 
 // 기호 인덱스, firstNum, SecondNum 구하기
@@ -54,23 +57,37 @@ const calculate = ()=>{
 
     NumList = [];
     NumList.push(resultNum);
-    console.log(resultNum);
+    screenContent.innerHTML = resultNum;
+    console.log('resultNum',resultNum);
     // 누적해서 계산하기 위해 배열 초기화
     // NumList = [];
 }
 
 // 이미 NumList에 symbol을 가지고 있을 경우 실행하기
 const symbolClickCalculate = ()=>{
-    // index = NumList.findIndex((item)=>{return item=="+" || item=="-" || item=="X" || item=="/"})
-    // firstNum = NumList[index-1];
-    // // console.log('first', firstNum);
-    // accumulateList.push(firstNum);
-    
-    // console.log(accumulateList);
-    // NumList = [];
-    if(NumList.includes('+')){
-        decideNumber()
-        console.log('firstNum', 'secondNum', firstNum, secondNum);
+
+    console.log("numList",NumList)
+
+    index = NumList.findIndex((item)=>{return item=="+" || item=="-" || item=="X" || item=="/"})
+    symbol = NumList[index]     // +,-,X,/
+    if((NumList.filter(x => x===`+` || x===`-` ||x===`X` ||x===`/`).length > 1)){
+        lastSymbol = NumList[NumList.length-1]
+        firstNum = NumList[index-1];
+        secondNum = NumList[NumList.length-2];
+        if(symbol == '+'){
+            resultNum = firstNum + secondNum;
+        }else if(symbol == '-'){
+            resultNum = firstNum - secondNum;
+        } else if(symbol == 'X'){
+            resultNum = firstNum * secondNum;
+        } else if(symbol == '/'){
+            resultNum = firstNum / secondNum;
+        }
+        NumList = [];
+        NumList.push(resultNum);
+        NumList.push(lastSymbol);
+        console.log('resultNum',resultNum);
+        screenContent.innerHTML = resultNum;
     }
 
 }
@@ -83,11 +100,20 @@ const allReset = ()=>{
     console.log("f,s",firstNum,secondNum,NumList);
 }
 
+
+// screenContent.innerHTML = "hi";
+
+
+
+
 numberBtn.forEach((btn)=>btn.addEventListener("click", (btn)=>makeNumber(btn.target.textContent)));
 symbolBtn.forEach((btn)=>btn.addEventListener("click", (btn)=>pushNumberToList(btn.target.textContent)));
-// symbolBtn.forEach((btn)=>btn.addEventListener("click", symbolClickCalculate));
+symbolBtn.forEach((btn)=>btn.addEventListener("click", symbolClickCalculate));
 resultBtn.addEventListener("click", ()=>{decideNumber();calculate()});
 cBtn.addEventListener("click", allReset);
+
+
+
 
 // 덧셈
 // 뺄셈
@@ -108,7 +134,6 @@ cBtn.addEventListener("click", allReset);
 // = 누르면 if (i == '+'){resultNum = firstNum + secondNum      return resultNum};
 // 이때 num = '', NumList = [], NumList[0] = resultNum, index = ''
 
-// symbolBtn을 누르면  [1, '+'] firstNum + secondNum(0)
-// firstNum = NumList[index-1;
-// NumList = [], NumList.push(firstNum);
+// symbolBtn을 누르면  [1, 12,'+'3,34 , +] firstNum + secondNum(0)
+// 이전값들이 계산된다.
 

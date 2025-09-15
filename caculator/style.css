@@ -26,6 +26,15 @@ html,body{
     height: 60px;
     border: 1px solid red;
     border-radius: 3%;
+    display: flex;
+    /* align-items: center; */
+}
+.screen-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 5px;
 }
 .number-pad{
     display: flex;
