@@ -36,7 +36,7 @@ section img{
 }
 .weather-per-time{
     display: flex;
-    overflow-x: auto;       /* 좌우 스크롤 허용 */
+    overflow-x: hidden;       /* 좌우 스크롤 허용. 좌우 스크롤바 생긴다. */
 
 }
 .weather-time-item{
@@ -46,3 +46,16 @@ section img{
     flex-direction: column;
     align-items: center;
 }
+
+
+
+.carousel-container{
+    display: flex;
+    align-items: center; /* stretch 대신 가운데 정렬 */
+}
+.carousel-container button{
+    border: none;
+    background-color: none;
+}
+
+ 

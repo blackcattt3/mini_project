@@ -1,0 +1,2065 @@
+{
+    "hours": [
+        {
+            "airTemperature": {
+                "ecmwf": 21.49,
+                "ecmwf:aifs": 23.62,
+                "noaa": 23.26,
+                "sg": 21.49
+            },
+            "time": "2025-09-16T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.69,
+                "ecmwf:aifs": 23.83,
+                "noaa": 23.86,
+                "sg": 22.69
+            },
+            "time": "2025-09-16T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.89,
+                "ecmwf:aifs": 24.05,
+                "noaa": 24.45,
+                "sg": 23.89
+            },
+            "time": "2025-09-16T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 25.09,
+                "ecmwf:aifs": 24.26,
+                "noaa": 25.05,
+                "sg": 25.09
+            },
+            "time": "2025-09-16T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 24.66,
+                "ecmwf:aifs": 24.47,
+                "noaa": 26.19,
+                "sg": 24.66
+            },
+            "time": "2025-09-16T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 24.24,
+                "ecmwf:aifs": 24.69,
+                "noaa": 27.32,
+                "sg": 24.24
+            },
+            "time": "2025-09-16T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.81,
+                "ecmwf:aifs": 24.9,
+                "noaa": 28.45,
+                "sg": 23.81
+            },
+            "time": "2025-09-16T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.52,
+                "ecmwf:aifs": 24.65,
+                "noaa": 27.59,
+                "sg": 23.52
+            },
+            "time": "2025-09-16T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.23,
+                "ecmwf:aifs": 24.4,
+                "noaa": 26.73,
+                "sg": 23.23
+            },
+            "time": "2025-09-16T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.94,
+                "ecmwf:aifs": 24.16,
+                "noaa": 25.86,
+                "sg": 22.94
+            },
+            "time": "2025-09-16T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.74,
+                "ecmwf:aifs": 23.91,
+                "noaa": 25.36,
+                "sg": 22.74
+            },
+            "time": "2025-09-16T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.54,
+                "ecmwf:aifs": 23.66,
+                "noaa": 24.86,
+                "sg": 22.54
+            },
+            "time": "2025-09-16T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.34,
+                "ecmwf:aifs": 23.41,
+                "noaa": 24.35,
+                "sg": 22.34
+            },
+            "time": "2025-09-16T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.35,
+                "ecmwf:aifs": 23.31,
+                "noaa": 24.26,
+                "sg": 22.35
+            },
+            "time": "2025-09-16T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.35,
+                "ecmwf:aifs": 23.21,
+                "noaa": 24.16,
+                "sg": 22.35
+            },
+            "time": "2025-09-16T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.35,
+                "ecmwf:aifs": 23.12,
+                "noaa": 24.07,
+                "sg": 22.35
+            },
+            "time": "2025-09-16T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.48,
+                "ecmwf:aifs": 23.02,
+                "noaa": 23.84,
+                "sg": 22.48
+            },
+            "time": "2025-09-16T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.61,
+                "ecmwf:aifs": 22.92,
+                "noaa": 23.62,
+                "sg": 22.61
+            },
+            "time": "2025-09-16T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.74,
+                "ecmwf:aifs": 22.82,
+                "noaa": 23.39,
+                "sg": 22.74
+            },
+            "time": "2025-09-16T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.62,
+                "ecmwf:aifs": 22.96,
+                "noaa": 23.02,
+                "sg": 22.62
+            },
+            "time": "2025-09-16T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.51,
+                "ecmwf:aifs": 23.11,
+                "noaa": 22.65,
+                "sg": 22.51
+            },
+            "time": "2025-09-16T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.39,
+                "ecmwf:aifs": 23.25,
+                "noaa": 22.28,
+                "sg": 22.39
+            },
+            "time": "2025-09-16T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.33,
+                "ecmwf:aifs": 23.4,
+                "noaa": 22.12,
+                "sg": 22.33
+            },
+            "time": "2025-09-16T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.26,
+                "ecmwf:aifs": 23.54,
+                "noaa": 21.95,
+                "sg": 22.26
+            },
+            "time": "2025-09-16T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.2,
+                "ecmwf:aifs": 23.69,
+                "noaa": 21.78,
+                "sg": 22.2
+            },
+            "time": "2025-09-17T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.03,
+                "ecmwf:aifs": 23.49,
+                "noaa": 22.05,
+                "sg": 22.03
+            },
+            "time": "2025-09-17T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 21.86,
+                "ecmwf:aifs": 23.29,
+                "noaa": 22.32,
+                "sg": 21.86
+            },
+            "time": "2025-09-17T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 21.69,
+                "ecmwf:aifs": 23.1,
+                "noaa": 22.59,
+                "sg": 21.69
+            },
+            "time": "2025-09-17T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.95,
+                "ecmwf:aifs": 22.9,
+                "noaa": 23.67,
+                "sg": 20.95
+            },
+            "time": "2025-09-17T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.21,
+                "ecmwf:aifs": 22.7,
+                "noaa": 24.76,
+                "sg": 20.21
+            },
+            "time": "2025-09-17T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.47,
+                "ecmwf:aifs": 22.5,
+                "noaa": 25.84,
+                "sg": 19.47
+            },
+            "time": "2025-09-17T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.38,
+                "ecmwf:aifs": 22.2,
+                "noaa": 25.39,
+                "sg": 19.38
+            },
+            "time": "2025-09-17T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.28,
+                "ecmwf:aifs": 21.89,
+                "noaa": 24.93,
+                "sg": 19.28
+            },
+            "time": "2025-09-17T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.18,
+                "ecmwf:aifs": 21.59,
+                "noaa": 24.48,
+                "sg": 19.18
+            },
+            "time": "2025-09-17T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.99,
+                "ecmwf:aifs": 21.28,
+                "noaa": 23.85,
+                "sg": 18.99
+            },
+            "time": "2025-09-17T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.8,
+                "ecmwf:aifs": 20.98,
+                "noaa": 23.21,
+                "sg": 18.8
+            },
+            "time": "2025-09-17T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.61,
+                "ecmwf:aifs": 20.67,
+                "noaa": 22.58,
+                "sg": 18.61
+            },
+            "time": "2025-09-17T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.43,
+                "ecmwf:aifs": 20.46,
+                "noaa": 22.03,
+                "sg": 18.43
+            },
+            "time": "2025-09-17T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.24,
+                "ecmwf:aifs": 20.25,
+                "noaa": 21.49,
+                "sg": 18.24
+            },
+            "time": "2025-09-17T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.06,
+                "ecmwf:aifs": 20.04,
+                "noaa": 20.95,
+                "sg": 18.06
+            },
+            "time": "2025-09-17T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.84,
+                "ecmwf:aifs": 19.82,
+                "noaa": 20.64,
+                "sg": 17.84
+            },
+            "time": "2025-09-17T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.63,
+                "ecmwf:aifs": 19.61,
+                "noaa": 20.34,
+                "sg": 17.63
+            },
+            "time": "2025-09-17T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.41,
+                "ecmwf:aifs": 19.4,
+                "noaa": 20.03,
+                "sg": 17.41
+            },
+            "time": "2025-09-17T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.32,
+                "ecmwf:aifs": 19.69,
+                "noaa": 19.86,
+                "sg": 17.32
+            },
+            "time": "2025-09-17T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.24,
+                "ecmwf:aifs": 19.99,
+                "noaa": 19.69,
+                "sg": 17.24
+            },
+            "time": "2025-09-17T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.15,
+                "ecmwf:aifs": 20.28,
+                "noaa": 19.51,
+                "sg": 17.15
+            },
+            "time": "2025-09-17T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.32,
+                "ecmwf:aifs": 20.58,
+                "noaa": 20.34,
+                "sg": 17.32
+            },
+            "time": "2025-09-17T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.49,
+                "ecmwf:aifs": 20.87,
+                "noaa": 21.18,
+                "sg": 17.49
+            },
+            "time": "2025-09-17T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.66,
+                "ecmwf:aifs": 21.17,
+                "noaa": 22.01,
+                "sg": 17.66
+            },
+            "time": "2025-09-18T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.55,
+                "ecmwf:aifs": 21.88,
+                "noaa": 23.31,
+                "sg": 18.55
+            },
+            "time": "2025-09-18T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.43,
+                "ecmwf:aifs": 22.59,
+                "noaa": 24.6,
+                "sg": 19.43
+            },
+            "time": "2025-09-18T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.32,
+                "ecmwf:aifs": 23.31,
+                "noaa": 25.9,
+                "sg": 20.32
+            },
+            "time": "2025-09-18T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 21.43,
+                "ecmwf:aifs": 24.02,
+                "noaa": 25.62,
+                "sg": 21.43
+            },
+            "time": "2025-09-18T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.54,
+                "ecmwf:aifs": 24.73,
+                "noaa": 25.35,
+                "sg": 22.54
+            },
+            "time": "2025-09-18T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.65,
+                "ecmwf:aifs": 25.45,
+                "noaa": 25.07,
+                "sg": 23.65
+            },
+            "time": "2025-09-18T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.06,
+                "ecmwf:aifs": 24.73,
+                "noaa": 23.97,
+                "sg": 23.06
+            },
+            "time": "2025-09-18T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.47,
+                "ecmwf:aifs": 24.02,
+                "noaa": 22.87,
+                "sg": 22.47
+            },
+            "time": "2025-09-18T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 21.88,
+                "ecmwf:aifs": 23.3,
+                "noaa": 21.77,
+                "sg": 21.88
+            },
+            "time": "2025-09-18T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.89,
+                "ecmwf:aifs": 22.59,
+                "noaa": 21.45,
+                "sg": 20.89
+            },
+            "time": "2025-09-18T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.91,
+                "ecmwf:aifs": 21.87,
+                "noaa": 21.13,
+                "sg": 19.91
+            },
+            "time": "2025-09-18T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.93,
+                "ecmwf:aifs": 21.16,
+                "noaa": 20.81,
+                "sg": 18.93
+            },
+            "time": "2025-09-18T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.49,
+                "ecmwf:aifs": 20.78,
+                "noaa": 20.52,
+                "sg": 18.49
+            },
+            "time": "2025-09-18T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.05,
+                "ecmwf:aifs": 20.41,
+                "noaa": 20.22,
+                "sg": 18.05
+            },
+            "time": "2025-09-18T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.61,
+                "ecmwf:aifs": 20.03,
+                "noaa": 19.92,
+                "sg": 17.61
+            },
+            "time": "2025-09-18T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.3,
+                "ecmwf:aifs": 19.66,
+                "noaa": 19.72,
+                "sg": 17.3
+            },
+            "time": "2025-09-18T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.99,
+                "ecmwf:aifs": 19.28,
+                "noaa": 19.51,
+                "sg": 16.99
+            },
+            "time": "2025-09-18T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.68,
+                "ecmwf:aifs": 18.91,
+                "noaa": 19.31,
+                "sg": 16.68
+            },
+            "time": "2025-09-18T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.56,
+                "ecmwf:aifs": 19.06,
+                "noaa": 19.16,
+                "sg": 16.56
+            },
+            "time": "2025-09-18T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.44,
+                "ecmwf:aifs": 19.21,
+                "noaa": 19.01,
+                "sg": 16.44
+            },
+            "time": "2025-09-18T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.32,
+                "ecmwf:aifs": 19.36,
+                "noaa": 18.85,
+                "sg": 16.32
+            },
+            "time": "2025-09-18T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.32,
+                "ecmwf:aifs": 19.51,
+                "noaa": 19.45,
+                "sg": 16.32
+            },
+            "time": "2025-09-18T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.32,
+                "ecmwf:aifs": 19.66,
+                "noaa": 20.04,
+                "sg": 16.32
+            },
+            "time": "2025-09-18T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.31,
+                "ecmwf:aifs": 19.81,
+                "noaa": 20.64,
+                "sg": 16.31
+            },
+            "time": "2025-09-19T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.12,
+                "ecmwf:aifs": 20.1,
+                "noaa": 21.49,
+                "sg": 17.12
+            },
+            "time": "2025-09-19T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.93,
+                "ecmwf:aifs": 20.39,
+                "noaa": 22.34,
+                "sg": 17.93
+            },
+            "time": "2025-09-19T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.75,
+                "ecmwf:aifs": 20.69,
+                "noaa": 23.19,
+                "sg": 18.75
+            },
+            "time": "2025-09-19T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.53,
+                "ecmwf:aifs": 20.98,
+                "noaa": 23.24,
+                "sg": 19.53
+            },
+            "time": "2025-09-19T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.31,
+                "ecmwf:aifs": 21.27,
+                "noaa": 23.3,
+                "sg": 20.31
+            },
+            "time": "2025-09-19T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 21.09,
+                "ecmwf:aifs": 21.56,
+                "noaa": 23.35,
+                "sg": 21.09
+            },
+            "time": "2025-09-19T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.74,
+                "ecmwf:aifs": 21.11,
+                "noaa": 23.04,
+                "sg": 20.74
+            },
+            "time": "2025-09-19T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.39,
+                "ecmwf:aifs": 20.67,
+                "noaa": 22.73,
+                "sg": 20.39
+            },
+            "time": "2025-09-19T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.04,
+                "ecmwf:aifs": 20.22,
+                "noaa": 22.41,
+                "sg": 20.04
+            },
+            "time": "2025-09-19T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.64,
+                "ecmwf:aifs": 19.78,
+                "noaa": 22.14,
+                "sg": 19.64
+            },
+            "time": "2025-09-19T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.25,
+                "ecmwf:aifs": 19.33,
+                "noaa": 21.86,
+                "sg": 19.25
+            },
+            "time": "2025-09-19T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.85,
+                "ecmwf:aifs": 18.89,
+                "noaa": 21.59,
+                "sg": 18.85
+            },
+            "time": "2025-09-19T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.56,
+                "ecmwf:aifs": 18.7,
+                "noaa": 21.42,
+                "sg": 18.56
+            },
+            "time": "2025-09-19T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.28,
+                "ecmwf:aifs": 18.52,
+                "noaa": 21.24,
+                "sg": 18.28
+            },
+            "time": "2025-09-19T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18,
+                "ecmwf:aifs": 18.33,
+                "noaa": 21.07,
+                "sg": 18
+            },
+            "time": "2025-09-19T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.9,
+                "ecmwf:aifs": 18.15,
+                "noaa": 20.44,
+                "sg": 17.9
+            },
+            "time": "2025-09-19T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.81,
+                "ecmwf:aifs": 17.96,
+                "noaa": 19.82,
+                "sg": 17.81
+            },
+            "time": "2025-09-19T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.72,
+                "ecmwf:aifs": 17.77,
+                "noaa": 19.19,
+                "sg": 17.72
+            },
+            "time": "2025-09-19T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.55,
+                "ecmwf:aifs": 17.99,
+                "noaa": 19.02,
+                "sg": 17.55
+            },
+            "time": "2025-09-19T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.37,
+                "ecmwf:aifs": 18.2,
+                "noaa": 18.85,
+                "sg": 17.37
+            },
+            "time": "2025-09-19T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.2,
+                "ecmwf:aifs": 18.42,
+                "noaa": 18.68,
+                "sg": 17.2
+            },
+            "time": "2025-09-19T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.16,
+                "ecmwf:aifs": 18.63,
+                "noaa": 18.78,
+                "sg": 17.16
+            },
+            "time": "2025-09-19T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.11,
+                "ecmwf:aifs": 18.84,
+                "noaa": 18.88,
+                "sg": 17.11
+            },
+            "time": "2025-09-19T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.07,
+                "ecmwf:aifs": 19.06,
+                "noaa": 18.99,
+                "sg": 17.07
+            },
+            "time": "2025-09-20T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.73,
+                "ecmwf:aifs": 20.03,
+                "noaa": 20.05,
+                "sg": 17.73
+            },
+            "time": "2025-09-20T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.4,
+                "ecmwf:aifs": 21.01,
+                "noaa": 21.1,
+                "sg": 18.4
+            },
+            "time": "2025-09-20T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.06,
+                "ecmwf:aifs": 21.98,
+                "noaa": 22.16,
+                "sg": 19.06
+            },
+            "time": "2025-09-20T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.36,
+                "ecmwf:aifs": 22.96,
+                "noaa": 22.92,
+                "sg": 20.36
+            },
+            "time": "2025-09-20T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 21.67,
+                "ecmwf:aifs": 23.94,
+                "noaa": 23.67,
+                "sg": 21.67
+            },
+            "time": "2025-09-20T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.97,
+                "ecmwf:aifs": 24.91,
+                "noaa": 24.43,
+                "sg": 22.97
+            },
+            "time": "2025-09-20T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.07,
+                "ecmwf:aifs": 24.11,
+                "noaa": 23.82,
+                "sg": 23.07
+            },
+            "time": "2025-09-20T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.16,
+                "ecmwf:aifs": 23.3,
+                "noaa": 23.21,
+                "sg": 23.16
+            },
+            "time": "2025-09-20T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 23.26,
+                "ecmwf:aifs": 22.5,
+                "noaa": 22.6,
+                "sg": 23.26
+            },
+            "time": "2025-09-20T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 22.34,
+                "ecmwf:aifs": 21.69,
+                "noaa": 22.02,
+                "sg": 22.34
+            },
+            "time": "2025-09-20T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 21.41,
+                "ecmwf:aifs": 20.89,
+                "noaa": 21.44,
+                "sg": 21.41
+            },
+            "time": "2025-09-20T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 20.49,
+                "ecmwf:aifs": 20.08,
+                "noaa": 20.86,
+                "sg": 20.49
+            },
+            "time": "2025-09-20T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 19.67,
+                "ecmwf:aifs": 19.57,
+                "noaa": 20.51,
+                "sg": 19.67
+            },
+            "time": "2025-09-20T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.86,
+                "ecmwf:aifs": 19.06,
+                "noaa": 20.16,
+                "sg": 18.86
+            },
+            "time": "2025-09-20T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 18.05,
+                "ecmwf:aifs": 18.55,
+                "noaa": 19.82,
+                "sg": 18.05
+            },
+            "time": "2025-09-20T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.66,
+                "ecmwf:aifs": 18.05,
+                "noaa": 19.48,
+                "sg": 17.66
+            },
+            "time": "2025-09-20T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 17.27,
+                "ecmwf:aifs": 17.54,
+                "noaa": 19.14,
+                "sg": 17.27
+            },
+            "time": "2025-09-20T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.88,
+                "ecmwf:aifs": 17.03,
+                "noaa": 18.81,
+                "sg": 16.88
+            },
+            "time": "2025-09-20T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.59,
+                "ecmwf:aifs": 17.48,
+                "noaa": 18.51,
+                "sg": 16.59
+            },
+            "time": "2025-09-20T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.31,
+                "ecmwf:aifs": 17.93,
+                "noaa": 18.21,
+                "sg": 16.31
+            },
+            "time": "2025-09-20T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 16.02,
+                "ecmwf:aifs": 18.39,
+                "noaa": 17.91,
+                "sg": 16.02
+            },
+            "time": "2025-09-20T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 15.99,
+                "ecmwf:aifs": 18.84,
+                "noaa": 18.83,
+                "sg": 15.99
+            },
+            "time": "2025-09-20T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 15.96,
+                "ecmwf:aifs": 19.3,
+                "noaa": 19.76,
+                "sg": 15.96
+            },
+            "time": "2025-09-20T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf": 15.93,
+                "ecmwf:aifs": 19.75,
+                "noaa": 20.69,
+                "sg": 15.93
+            },
+            "time": "2025-09-21T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.83,
+                "noaa": 22.21,
+                "sg": 22.21
+            },
+            "time": "2025-09-21T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.9,
+                "noaa": 23.73,
+                "sg": 23.73
+            },
+            "time": "2025-09-21T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 22.98,
+                "noaa": 25.24,
+                "sg": 25.24
+            },
+            "time": "2025-09-21T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.05,
+                "noaa": 25.84,
+                "sg": 25.84
+            },
+            "time": "2025-09-21T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 25.13,
+                "noaa": 26.44,
+                "sg": 26.44
+            },
+            "time": "2025-09-21T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 26.2,
+                "noaa": 27.03,
+                "sg": 27.03
+            },
+            "time": "2025-09-21T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 25.35,
+                "noaa": 26.46,
+                "sg": 26.46
+            },
+            "time": "2025-09-21T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.49,
+                "noaa": 25.89,
+                "sg": 25.89
+            },
+            "time": "2025-09-21T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 23.64,
+                "noaa": 25.31,
+                "sg": 25.31
+            },
+            "time": "2025-09-21T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 22.79,
+                "noaa": 24.45,
+                "sg": 24.45
+            },
+            "time": "2025-09-21T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.94,
+                "noaa": 23.59,
+                "sg": 23.59
+            },
+            "time": "2025-09-21T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.08,
+                "noaa": 22.73,
+                "sg": 22.73
+            },
+            "time": "2025-09-21T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.62,
+                "noaa": 22.1,
+                "sg": 22.1
+            },
+            "time": "2025-09-21T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.15,
+                "noaa": 21.48,
+                "sg": 21.48
+            },
+            "time": "2025-09-21T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.68,
+                "noaa": 20.85,
+                "sg": 20.85
+            },
+            "time": "2025-09-21T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.21,
+                "noaa": 20.34,
+                "sg": 20.34
+            },
+            "time": "2025-09-21T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.74,
+                "noaa": 19.82,
+                "sg": 19.82
+            },
+            "time": "2025-09-21T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.27,
+                "noaa": 19.31,
+                "sg": 19.31
+            },
+            "time": "2025-09-21T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.68,
+                "noaa": 18.82,
+                "sg": 18.82
+            },
+            "time": "2025-09-21T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.08,
+                "noaa": 18.34,
+                "sg": 18.34
+            },
+            "time": "2025-09-21T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.49,
+                "noaa": 17.85,
+                "sg": 17.85
+            },
+            "time": "2025-09-21T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.9,
+                "noaa": 18.65,
+                "sg": 18.65
+            },
+            "time": "2025-09-21T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.3,
+                "noaa": 19.45,
+                "sg": 19.45
+            },
+            "time": "2025-09-21T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.71,
+                "noaa": 20.25,
+                "sg": 20.25
+            },
+            "time": "2025-09-22T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.68,
+                "noaa": 21.54,
+                "sg": 21.54
+            },
+            "time": "2025-09-22T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 22.66,
+                "noaa": 22.84,
+                "sg": 22.84
+            },
+            "time": "2025-09-22T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 23.63,
+                "noaa": 24.13,
+                "sg": 24.13
+            },
+            "time": "2025-09-22T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.6,
+                "noaa": 24.92,
+                "sg": 24.92
+            },
+            "time": "2025-09-22T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 25.58,
+                "noaa": 25.7,
+                "sg": 25.7
+            },
+            "time": "2025-09-22T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 26.55,
+                "noaa": 26.48,
+                "sg": 26.48
+            },
+            "time": "2025-09-22T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 25.75,
+                "noaa": 25.75,
+                "sg": 25.75
+            },
+            "time": "2025-09-22T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.94,
+                "noaa": 25.01,
+                "sg": 25.01
+            },
+            "time": "2025-09-22T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.14,
+                "noaa": 24.27,
+                "sg": 24.27
+            },
+            "time": "2025-09-22T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 23.34,
+                "noaa": 23.15,
+                "sg": 23.15
+            },
+            "time": "2025-09-22T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 22.53,
+                "noaa": 22.03,
+                "sg": 22.03
+            },
+            "time": "2025-09-22T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.73,
+                "noaa": 20.91,
+                "sg": 20.91
+            },
+            "time": "2025-09-22T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.21,
+                "noaa": 20.43,
+                "sg": 20.43
+            },
+            "time": "2025-09-22T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.7,
+                "noaa": 19.96,
+                "sg": 19.96
+            },
+            "time": "2025-09-22T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.18,
+                "noaa": 19.48,
+                "sg": 19.48
+            },
+            "time": "2025-09-22T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.66,
+                "noaa": 19.08,
+                "sg": 19.08
+            },
+            "time": "2025-09-22T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.15,
+                "noaa": 18.68,
+                "sg": 18.68
+            },
+            "time": "2025-09-22T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.63,
+                "noaa": 18.28,
+                "sg": 18.28
+            },
+            "time": "2025-09-22T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.97,
+                "noaa": 17.94,
+                "sg": 17.94
+            },
+            "time": "2025-09-22T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.3,
+                "noaa": 17.61,
+                "sg": 17.61
+            },
+            "time": "2025-09-22T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.64,
+                "noaa": 17.27,
+                "sg": 17.27
+            },
+            "time": "2025-09-22T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.97,
+                "noaa": 18.25,
+                "sg": 18.25
+            },
+            "time": "2025-09-22T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.31,
+                "noaa": 19.24,
+                "sg": 19.24
+            },
+            "time": "2025-09-22T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.64,
+                "noaa": 20.22,
+                "sg": 20.22
+            },
+            "time": "2025-09-23T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.51,
+                "noaa": 21.46,
+                "sg": 21.46
+            },
+            "time": "2025-09-23T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 22.37,
+                "noaa": 22.7,
+                "sg": 22.7
+            },
+            "time": "2025-09-23T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 23.23,
+                "noaa": 23.94,
+                "sg": 23.94
+            },
+            "time": "2025-09-23T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.1,
+                "noaa": 24.41,
+                "sg": 24.41
+            },
+            "time": "2025-09-23T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.96,
+                "noaa": 24.89,
+                "sg": 24.89
+            },
+            "time": "2025-09-23T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 25.83,
+                "noaa": 25.36,
+                "sg": 25.36
+            },
+            "time": "2025-09-23T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 25.14,
+                "noaa": 24.33,
+                "sg": 24.33
+            },
+            "time": "2025-09-23T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 24.46,
+                "noaa": 23.29,
+                "sg": 23.29
+            },
+            "time": "2025-09-23T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 23.78,
+                "noaa": 22.25,
+                "sg": 22.25
+            },
+            "time": "2025-09-23T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 23.09,
+                "noaa": 21.63,
+                "sg": 21.63
+            },
+            "time": "2025-09-23T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 22.41,
+                "noaa": 21,
+                "sg": 21
+            },
+            "time": "2025-09-23T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.72,
+                "noaa": 20.38,
+                "sg": 20.38
+            },
+            "time": "2025-09-23T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.34,
+                "noaa": 20.18,
+                "sg": 20.18
+            },
+            "time": "2025-09-23T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.96,
+                "noaa": 19.99,
+                "sg": 19.99
+            },
+            "time": "2025-09-23T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.58,
+                "noaa": 19.8,
+                "sg": 19.8
+            },
+            "time": "2025-09-23T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.2,
+                "noaa": 19.62,
+                "sg": 19.62
+            },
+            "time": "2025-09-23T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.82,
+                "noaa": 19.44,
+                "sg": 19.44
+            },
+            "time": "2025-09-23T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.43,
+                "noaa": 19.26,
+                "sg": 19.26
+            },
+            "time": "2025-09-23T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.36,
+                "noaa": 19.28,
+                "sg": 19.28
+            },
+            "time": "2025-09-23T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.29,
+                "noaa": 19.3,
+                "sg": 19.3
+            },
+            "time": "2025-09-23T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.21,
+                "noaa": 19.32,
+                "sg": 19.32
+            },
+            "time": "2025-09-23T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.14,
+                "noaa": 19.71,
+                "sg": 19.71
+            },
+            "time": "2025-09-23T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.06,
+                "noaa": 20.09,
+                "sg": 20.09
+            },
+            "time": "2025-09-23T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.99,
+                "noaa": 20.48,
+                "sg": 20.48
+            },
+            "time": "2025-09-24T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.93,
+                "noaa": 21.26,
+                "sg": 21.26
+            },
+            "time": "2025-09-24T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.88,
+                "noaa": 22.04,
+                "sg": 22.04
+            },
+            "time": "2025-09-24T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.82,
+                "noaa": 22.81,
+                "sg": 22.81
+            },
+            "time": "2025-09-24T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.76,
+                "noaa": 23.27,
+                "sg": 23.27
+            },
+            "time": "2025-09-24T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.7,
+                "noaa": 23.73,
+                "sg": 23.73
+            },
+            "time": "2025-09-24T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.65,
+                "noaa": 24.19,
+                "sg": 24.19
+            },
+            "time": "2025-09-24T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.69,
+                "noaa": 23.83,
+                "sg": 23.83
+            },
+            "time": "2025-09-24T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.74,
+                "noaa": 23.47,
+                "sg": 23.47
+            },
+            "time": "2025-09-24T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.79,
+                "noaa": 23.11,
+                "sg": 23.11
+            },
+            "time": "2025-09-24T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.83,
+                "noaa": 22.38,
+                "sg": 22.38
+            },
+            "time": "2025-09-24T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.88,
+                "noaa": 21.64,
+                "sg": 21.64
+            },
+            "time": "2025-09-24T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.93,
+                "noaa": 20.91,
+                "sg": 20.91
+            },
+            "time": "2025-09-24T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.1,
+                "noaa": 20.39,
+                "sg": 20.39
+            },
+            "time": "2025-09-24T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.28,
+                "noaa": 19.88,
+                "sg": 19.88
+            },
+            "time": "2025-09-24T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.45,
+                "noaa": 19.36,
+                "sg": 19.36
+            },
+            "time": "2025-09-24T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.63,
+                "noaa": 19.02,
+                "sg": 19.02
+            },
+            "time": "2025-09-24T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.81,
+                "noaa": 18.69,
+                "sg": 18.69
+            },
+            "time": "2025-09-24T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.98,
+                "noaa": 18.35,
+                "sg": 18.35
+            },
+            "time": "2025-09-24T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.07,
+                "noaa": 18.17,
+                "sg": 18.17
+            },
+            "time": "2025-09-24T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.17,
+                "noaa": 17.99,
+                "sg": 17.99
+            },
+            "time": "2025-09-24T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.26,
+                "noaa": 17.81,
+                "sg": 17.81
+            },
+            "time": "2025-09-24T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.36,
+                "noaa": 18.91,
+                "sg": 18.91
+            },
+            "time": "2025-09-24T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.45,
+                "noaa": 20,
+                "sg": 20
+            },
+            "time": "2025-09-24T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.55,
+                "noaa": 21.1,
+                "sg": 21.1
+            },
+            "time": "2025-09-25T00:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.67,
+                "noaa": 22.47,
+                "sg": 22.47
+            },
+            "time": "2025-09-25T01:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.8,
+                "noaa": 23.85,
+                "sg": 23.85
+            },
+            "time": "2025-09-25T02:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.92,
+                "noaa": 25.22,
+                "sg": 25.22
+            },
+            "time": "2025-09-25T03:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.05,
+                "noaa": 25.96,
+                "sg": 25.96
+            },
+            "time": "2025-09-25T04:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.18,
+                "noaa": 26.71,
+                "sg": 26.71
+            },
+            "time": "2025-09-25T05:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.3,
+                "noaa": 27.45,
+                "sg": 27.45
+            },
+            "time": "2025-09-25T06:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 21.04,
+                "noaa": 26.4,
+                "sg": 26.4
+            },
+            "time": "2025-09-25T07:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.77,
+                "noaa": 25.35,
+                "sg": 25.35
+            },
+            "time": "2025-09-25T08:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.51,
+                "noaa": 24.31,
+                "sg": 24.31
+            },
+            "time": "2025-09-25T09:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 20.24,
+                "noaa": 23.34,
+                "sg": 23.34
+            },
+            "time": "2025-09-25T10:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.97,
+                "noaa": 22.38,
+                "sg": 22.38
+            },
+            "time": "2025-09-25T11:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.71,
+                "noaa": 21.42,
+                "sg": 21.42
+            },
+            "time": "2025-09-25T12:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.43,
+                "noaa": 21.01,
+                "sg": 21.01
+            },
+            "time": "2025-09-25T13:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 19.14,
+                "noaa": 20.6,
+                "sg": 20.6
+            },
+            "time": "2025-09-25T14:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.86,
+                "noaa": 20.18,
+                "sg": 20.18
+            },
+            "time": "2025-09-25T15:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.57,
+                "noaa": 19.71,
+                "sg": 19.71
+            },
+            "time": "2025-09-25T16:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.29,
+                "noaa": 19.23,
+                "sg": 19.23
+            },
+            "time": "2025-09-25T17:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.01,
+                "noaa": 18.75,
+                "sg": 18.75
+            },
+            "time": "2025-09-25T18:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.12,
+                "noaa": 18.43,
+                "sg": 18.43
+            },
+            "time": "2025-09-25T19:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.22,
+                "noaa": 18.11,
+                "sg": 18.11
+            },
+            "time": "2025-09-25T20:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.33,
+                "noaa": 17.8,
+                "sg": 17.8
+            },
+            "time": "2025-09-25T21:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.44,
+                "noaa": 18.98,
+                "sg": 18.98
+            },
+            "time": "2025-09-25T22:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.55,
+                "noaa": 20.16,
+                "sg": 20.16
+            },
+            "time": "2025-09-25T23:00:00+00:00"
+        },
+        {
+            "airTemperature": {
+                "ecmwf:aifs": 18.66,
+                "noaa": 21.34,
+                "sg": 21.34
+            },
+            "time": "2025-09-26T00:00:00+00:00"
+        }
+    ],
+    "meta": {
+        "cost": 1,
+        "dailyQuota": 10,
+        "end": "2025-09-26 00:00",
+        "lat": 37.5665,
+        "lng": 126.978,
+        "params": [
+            "airTemperature"
+        ],
+        "requestCount": 3,
+        "start": "2025-09-16 00:00"
+    }
+}

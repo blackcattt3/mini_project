@@ -3,7 +3,7 @@ let lat = 37.5665;      // 기본값 : 서울 위도
 let lng = 126.9780;     // 기본값 : 서울 경도
 
 const time = moment().format("A. h:mm");
-const today = moment().format("ddd A. h:mm")
+const today = moment().format("ddd YYYY.MM.DD")
 
 let dateShow = document.querySelector(".date-show");
 let timeShow = document.querySelector(".time-show");
@@ -44,7 +44,7 @@ const getWeather = async ()=>{
 }
 
 const getWeatherDummy = async ()=>{
-    const response = await fetch("./sample.json");
+    const response = await fetch("./data.json");
     const data = await response.json();
     renderTemperature(data.hours);  // 배열로 전달
     weatherTimeRender(data.hours)
@@ -60,10 +60,11 @@ const renderTemperature = (data)=>{
 const weatherTimeRender = (weatherList)=>{
     console.log(weatherList);
     weatherTimeHTML = ''
-    weatherTimeHTML = weatherList.map((item)=>{
-        weatherTime = moment(item.time).format("ddd A. h:mm");
+    weatherTimeHTML = weatherList.slice(0,2).map((item)=>{
+        const localTime = moment(item.time).local().format("ddd A. h:mm");
         return `<div class="weather-time-item">
-                        <div>${weatherTime}</div>
+                        <div>${moment(item.time).local().format("YY/MM/DD")}</div>
+                        <div>${localTime}</div>
                         <div>날씨사진</div>
                         <div>${item.airTemperature.noaa}°C</div>
                     </div>`
@@ -80,3 +81,7 @@ dateShow.innerHTML = `${today}`
 timeShow.innerHTML = `${time}`;
 getWeatherDummy();
 // getGPS();
+
+
+// API 요청 한도가 정해져있어서 dummyData를 받아서 처리힘
+// 처음에 weatherTime을 정의하고 시간을 띄웠는데 item.time이 UTC 기준이어서 현재 한국시간이 안나옴. localTime을 새로 정의해줌.
