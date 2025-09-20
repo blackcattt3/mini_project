@@ -9,6 +9,39 @@ let dateShow = document.querySelector(".date-show");
 let timeShow = document.querySelector(".time-show");
 let temperatureShow = document.querySelector(".temperature-show");
 
+
+
+const track = document.querySelector(".weather-per-time");
+const prevBtn = document.querySelector(".prev");
+const nextBtn = document.querySelector(".next");
+
+let currentPage = 0;
+const groupSize = 5;                  // 한 화면에 보이는 카드 개수
+const itemWidth = 150 + 10;           // 카드 너비 + margin-right
+
+function updateCarousel() {
+  track.style.transform = `translateX(-${currentPage * groupSize * itemWidth}px)`;
+}
+
+nextBtn.addEventListener("click", () => {
+  const totalItems = track.querySelectorAll(".weather-time-item").length;
+  const totalPages = Math.ceil(totalItems / groupSize);
+
+  if (currentPage < totalPages - 1) {
+    currentPage++;
+    updateCarousel();
+  }
+});
+
+prevBtn.addEventListener("click", () => {
+  if (currentPage > 0) {
+    currentPage--;
+    updateCarousel();
+  }
+});
+
+
+
 // 이모지 + 랜덤사진
 
 const getGPS = ()=>{
@@ -59,8 +92,17 @@ const renderTemperature = (data)=>{
 
 const weatherTimeRender = (weatherList)=>{
     console.log(weatherList);
+    // 현재 시간
+    const now = moment();
+
+    // 앞으로 24시간치만 필터링
+    const next24Hours = weatherList.filter(item => {
+        const localTime = moment(item.time).local();
+        return localTime.isSameOrAfter(now) && localTime.isBefore(moment(now).add(24, "hours"));
+    });
+
     weatherTimeHTML = ''
-    weatherTimeHTML = weatherList.slice(0,2).map((item)=>{
+    weatherTimeHTML = next24Hours.map((item)=>{
         const localTime = moment(item.time).local().format("ddd A. h:mm");
         return `<div class="weather-time-item">
                         <div>${moment(item.time).local().format("YY/MM/DD")}</div>
@@ -85,3 +127,6 @@ getWeatherDummy();
 
 // API 요청 한도가 정해져있어서 dummyData를 받아서 처리힘
 // 처음에 weatherTime을 정의하고 시간을 띄웠는데 item.time이 UTC 기준이어서 현재 한국시간이 안나옴. localTime을 새로 정의해줌.
+// weatherTimeRender 함수에서 하루치데이터(오늘 오후 한시면 ~다음날 오후 한시까지)만 보여주기위해서 weatherList.slice(0,24).map을 사용했는데
+// API를 받아올때 꼭 현재 시간부터 받아오는게 아니기때문에 데이터의 처음부터 시작됨. 그러므로 현재 시간 기준으로 24시간 데이터 받아오고싶다면
+// 필터링해서 가져와야함.

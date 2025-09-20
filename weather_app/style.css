@@ -36,26 +36,53 @@ section img{
 }
 .weather-per-time{
     display: flex;
-    overflow-x: hidden;       /* 좌우 스크롤 허용. 좌우 스크롤바 생긴다. */
-
+    transition: transform 0.4s ease; /* ← translateX 애니메이션 */
 }
-.weather-time-item{
+/* .weather-time-item{
     padding: 1em;
     flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+.weather-time-item {
+    flex: 0 0 150px;         /* 카드 너비 고정 */
+    margin-right: 10px;      /* 카드 사이 간격 */
+    padding: 1em;
+    text-align: center;
+  
+    /* 둥근 사각형 스타일 */
+    background: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 
 
-.carousel-container{
-    display: flex;
-    align-items: center; /* stretch 대신 가운데 정렬 */
+.carousel-container {
+    position: relative;
+    max-width: 100%;   /* 화면에 꽉 차도록 */
+    width: 800px;      /* 기본은 800px */
+    margin: 0 auto;    /* 가운데 정렬 */
+    overflow: hidden;
+}
+.carousel-track {
+    width: 100%;
+    overflow: hidden;
 }
 .carousel-container button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
     border: none;
-    background-color: none;
+    background: rgba(255,255,255,0.7); /* 불투명 배경 */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 }
 
- 
+.prev { left: 5px; }
+.next { right: 5px; }

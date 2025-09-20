@@ -22,10 +22,10 @@ let page = 1;
 const paginationRender = ()=>{
     
     // totalResults = data.totalResults;
-    const totalPage = Math.ceil(totalResults/pageSize)
+    let totalPage = Math.ceil(totalResults/pageSize)
     let pageGroup = Math.ceil(page/groupSize);
     let lastPage = pageGroup * groupSize;
-    if(lastPage<totalPage){
+    if(lastPage>totalPage){
         lastPage = totalPage;
     }
     let firstPage = lastPage - (groupSize-1);
@@ -53,7 +53,7 @@ const paginationRender = ()=>{
 const moveToPage = (clickedPage)=>{
     page = clickedPage;
     getNews();
-    // paginationRender();
+    paginationRender();
     // console.log(clickedPage);
 }
 
@@ -143,7 +143,6 @@ const textAbstract = (description)=>{
 }
 
 
-getNews();
 
 hamburger.addEventListener("click", ()=>[
     menus.classList.toggle("active")
@@ -157,6 +156,9 @@ searchIcon.addEventListener("click", ()=>{
 goBtn.addEventListener("click",()=>showByKeyword(input.value))
 menuBtn.forEach((item)=>item.addEventListener("click", (item)=>showByCategory(item.target.textContent)));
 menuBtn.forEach((item)=>item.addEventListener("click", ()=>{menus.classList.toggle("active")}));
+
+
+getNews();
 
 // 200자 넘으면 ... 로
 // 페이지네이션
