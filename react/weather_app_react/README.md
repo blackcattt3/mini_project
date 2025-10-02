@@ -17,11 +17,11 @@
     - 선택된 도시 버튼 강조 표시
     - 날씨에 따른 동적 배경화면
 
-🛠 사용 기술
-✅ Frontend: React (Hooks, useState, useEffect)
-✅ UI 라이브러리: React-Bootstrap, CSS
-✅ API: OpenWeather API
-✅ 기타: React Spinners (로딩 UI)
+🛠 사용 기술<br>
+✅ Frontend: React (Hooks, useState, useEffect)<br>
+✅ UI 라이브러리: React-Bootstrap, CSS<br>
+✅ API: OpenWeather API<br>
+✅ 기타: React Spinners (로딩 UI)<br>
 
 
 💡 개선 가능 포인트
