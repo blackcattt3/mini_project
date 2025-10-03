@@ -11,7 +11,7 @@ import { ClipLoader } from "react-spinners";
 
 function App() {
 
-  const apiKey = 'aa292a2525ebe74faa3287f45c8c7455';
+  const apiKey = import.meta.env.VITE_API_KEY;;
   const [weather, setWeather] = useState(null);
   const [city, setCity] = useState("");
   const [backgroundImageId, setBackgroundImageId] = useState("");
